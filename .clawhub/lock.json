@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "moltresearch": {
+      "version": "1.1.0",
+      "installedAt": 1770479536096
+    },
+    "content-draft-generator": {
+      "version": "1.0.1",
+      "installedAt": 1770480091228
+    },
+    "social-media-analyzer": {
+      "version": "1.0.0",
+      "installedAt": 1770480097142
+    }
+  }
+}
