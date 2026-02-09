@@ -1,7 +1,7 @@
 # 🤖 Agent 完整列表和职能说明
 
 **文档创建时间**: 2026-02-09 18:44 GMT+8
-**最后更新**: 2026-02-09 19:01 GMT+8
+**最后更新**: 2026-02-09 19:40 GMT+8
 **维护者**: MiniMax-M2.1
 
 ---
@@ -35,7 +35,90 @@
 
 ---
 
-## 二、图片生成 Agent
+## 二、热点 Agent
+
+**路径**: `skills/hot-agent/`
+
+| 属性 | 值 |
+|------|-----|
+| **名称** | 热点 Agent (Hot Topic Agent) |
+| **核心职能** | 热点事件采集、分类、现象追溯、心理分析、知识图谱生成 |
+| **数据源** | 新闻媒体、社交平台、搜索引擎、行业垂直媒体 |
+| **分析维度** | 科技、财经、社会、娱乐、体育、教育等 |
+
+### 主要功能
+
+- **实时热点采集**: 自动搜索和追踪多平台热点事件，支持多维度时间范围筛选
+- **智能事件分类**: 基于主题、主体、影响、情感的多维度自动分类
+- **深度现象追溯**: 通过时间线分析、因果分析等方法追溯事件背后的真实现象
+- **心理状态分析**: 基于社会心理学理论分析事件对公众心理和情绪的影响
+- **知识图谱生成**: 将事件、现象、心理影响等要素以结构化图谱形式呈现
+
+### 技术架构
+
+| 组件 | 技术 |
+|------|------|
+| **数据采集** | Brave Search API + 社交媒体API |
+| **自然语言处理** | OpenAI GPT / Claude |
+| **知识图谱** | Neo4j / NetworkX / Mermaid |
+| **心理分析** | 心理学知识库 + 大语言模型 |
+| **可视化** | Mermaid / Graphviz |
+
+### 核心功能流程
+
+```
+数据采集 → 事件分类 → 现象追溯 → 心理分析 → 知识图谱
+   ↓           ↓           ↓           ↓           ↓
+ 搜索热点   主题分类   因果分析   情绪分析   可视化呈现
+```
+
+### 使用示例
+
+```python
+from hot_agent import HotTopicAgent
+
+# 初始化Agent
+agent = HotTopicAgent()
+
+# 采集热点事件
+events = agent.collect(
+    time_range="24h",
+    categories=["科技", "财经", "社会"],
+    limit=100
+)
+
+# 生成知识图谱
+graph = agent.generate_knowledge_graph(
+    topic="热点事件知识图谱",
+    events=events,
+    format="mermaid"
+)
+
+# 导出图谱
+agent.export_graph(graph, "output/graph.md")
+```
+
+### 支持的数据源
+
+| 类型 | 数据源 | 说明 |
+|------|--------|------|
+| 新闻媒体 | 新浪、腾讯、网易、凤凰 | 主流新闻平台热点榜单 |
+| 社交平台 | 微博、知乎、抖音、小红书、B站 | 社交媒体热点话题 |
+| 搜索引擎 | 百度、谷歌 | 热门搜索词趋势 |
+| 行业垂直 | 36氪、虎嗅、财新 | 科技财经专业媒体 |
+
+### 心理分析维度
+
+| 维度 | 分析内容 |
+|------|---------|
+| 认知影响 | 事件如何改变人们对特定事物的认知和判断 |
+| 情感影响 | 事件引发的情绪反应（恐惧、愤怒、兴奋、焦虑等） |
+| 行为影响 | 事件如何影响人们的行为决策 |
+| 社会影响 | 事件如何影响社会关系和社会结构 |
+
+---
+
+## 三、图片生成 Agent
 
 **路径**: `skills/image-agent/`
 
@@ -119,7 +202,7 @@ result = agent.generate_image(
 
 ---
 
-## 三、社交媒体分析器
+## 四、社交媒体分析器
 
 **路径**: `skills/social-media-analyzer/`
 
@@ -173,6 +256,16 @@ ROI = (价值 - 花费) / 花费 × 100
 | LinkedIn | 2.0% | 3-5% | >5% |
 | TikTok | 5.96% | 8-15% | >15% |
 
+### ROI 解读
+
+| ROI % | 评级 | 建议 |
+|-------|------|------|
+| > 500% | 优秀 | 大幅增加预算 |
+| 200-500% | 良好 | 适度增加预算 |
+| 100-200% | 可接受 | 优化后再扩展 |
+| 0-100% | 平衡 | 审视定向和创意 |
+| < 0% | 负值 | 暂停并重组 |
+
 ### 使用方式
 
 ```bash
@@ -183,9 +276,31 @@ python scripts/analyze_performance.py assets/sample_input.json
 python scripts/calculate_metrics.py assets/sample_input.json
 ```
 
+### 输入示例
+
+```json
+{
+  "platform": "instagram",
+  "total_spend": 500,
+  "posts": [
+    {
+      "post_id": "post_001",
+      "content_type": "image",
+      "likes": 342,
+      "comments": 28,
+      "shares": 15,
+      "saves": 45,
+      "reach": 5200,
+      "impressions": 8500,
+      "clicks": 120
+    }
+  ]
+}
+```
+
 ---
 
-## 四、内容草稿生成器
+## 五、内容草稿生成器
 
 **路径**: `skills/content-draft-generator/`
 
@@ -207,17 +322,34 @@ python scripts/calculate_metrics.py assets/sample_input.json
 
 ```
 步骤 1: 收集参考 URL（最多 5 个）
+   ↓
 步骤 2: 内容解构分析
+   → 获取并分析每个参考 URL
+   → 保存到 content-breakdown/breakdown-{timestamp}.md
+   ↓
 步骤 3: 生成内容结构指南
+   → 综合模式生成完整指南
+   → 保存到 content-anatomy/anatomy-{timestamp}.md
+   ↓
 步骤 4: 生成上下文问题
+   → 生成需要从用户收集的问题
+   → 保存到 content-context/context-{timestamp}.md
+   ↓
 步骤 5: 生成元提示词
-步骤 6: 执行元提示词（生成 3 个变体）
+   → 创建两阶段提示词
+   → 保存到 content-meta-prompt/meta-prompt-{timestamp}.md
+   ↓
+步骤 6: 执行元提示词
+   → 第一阶段：上下文收集采访（最多 10 个问题）
+   → 第二阶段：生成 3 个内容变体
+   ↓
 步骤 7: 保存内容草稿
+   → 保存到 content-draft/draft-{timestamp}.md
 ```
 
 ---
 
-## 五、Molt Research Agent
+## 六、Molt Research Agent
 
 **路径**: `skills/moltresearch/`
 
@@ -262,7 +394,7 @@ python scripts/calculate_metrics.py assets/sample_input.json
 
 ---
 
-## 六、公众号文章 Agent
+## 七、公众号文章 Agent
 
 **路径**: `openclaw_data/docs/公众号文章 agent 使用指南.md`
 
@@ -278,9 +410,14 @@ python scripts/calculate_metrics.py assets/sample_input.json
 - **标题优化**: 生成吸引人的文章标题
 - **结构拆解**: 分析并应用优秀文章的结构模式
 
+### 相关模板
+
+- **标题模板库**: `openclaw_data/templates/标题模板库.md`
+- **文章结构模板库**: `openclaw_data/templates/文章结构模板库.md`
+
 ---
 
-## 七、文章结构拆解 Agent
+## 八、文章结构拆解 Agent
 
 **路径**: `openclaw_data/docs/文章结构拆解 agent 使用指南.md`
 
@@ -303,12 +440,15 @@ python scripts/calculate_metrics.py assets/sample_input.json
 | # | Agent 名称 | 路径 | 状态 | 核心职能 |
 |---|-----------|------|------|---------|
 | 1 | **MiniMax-M2.1** | (主会话) | 活跃 | 主协调 Agent |
-| 2 | **图片生成 Agent** | `skills/image-agent/` | 开发中 | 配图生成 |
-| 3 | **社交媒体分析器** | `skills/social-media-analyzer/` | 可用 | 数据分析、ROI 计算 |
-| 4 | **内容草稿生成器** | `skills/content-draft-generator/` | 可用 | 内容创作 |
-| 5 | **Molt Research** | `skills/moltresearch/` | 可用 | 协作研究平台 |
-| 6 | **公众号文章 Agent** | `openclaw_data/docs/` | 可用 | 公众号文章生成 |
-| 7 | **结构拆解 Agent** | `openclaw_data/docs/` | 可用 | 文章结构分析 |
+| 2 | **热点 Agent** | `skills/hot-agent/` | ✅ 新增 | 热点分析、知识图谱 |
+| 3 | **图片生成 Agent** | `skills/image-agent/` | 开发中 | 配图生成 |
+| 4 | **社交媒体分析器** | `skills/social-media-analyzer/` | 可用 | 数据分析、ROI 计算 |
+| 5 | **内容草稿生成器** | `skills/content-draft-generator/` | 可用 | 内容创作 |
+| 6 | **Molt Research** | `skills/moltresearch/` | 可用 | 协作研究平台 |
+| 7 | **公众号文章 Agent** | `openclaw_data/docs/` | 可用 | 公众号文章生成 |
+| 8 | **结构拆解 Agent** | `openclaw_data/docs/` | 可用 | 文章结构分析 |
+
+**总计**: 8 个 Agent（新增热点 Agent）
 
 ---
 
@@ -316,20 +456,30 @@ python scripts/calculate_metrics.py assets/sample_input.json
 
 ### 公众号运营场景
 
-1. 使用 **内容草稿生成器** → 生成文章框架
-2. 使用 **结构拆解 Agent** → 分析优秀文章模式
-3. 使用 **图片生成 Agent** → 生成配图
-4. 使用 **社交媒体分析器** → 分析发布效果
+1. 使用 **热点 Agent** → 追踪当前热点话题
+2. 使用 **内容草稿生成器** → 生成文章框架
+3. 使用 **结构拆解 Agent** → 分析优秀文章模式
+4. 使用 **图片生成 Agent** → 生成配图
+5. 使用 **社交媒体分析器** → 分析发布效果
+
+### 舆情监测场景
+
+1. 使用 **热点 Agent** → 实时追踪热点事件
+2. 使用 **心理分析功能** → 分析公众情绪变化
+3. 使用 **知识图谱** → 理解事件关联和影响链
+
+### 内容创作场景
+
+1. 使用 **热点 Agent** → 获取创作灵感和选题
+2. 使用 **标题 Agent** → 优化文章标题
+3. 使用 **公众号 Agent** → 生成完整文章
+4. 使用 **图片生成 Agent** → 配图生成
 
 ### 研究场景
 
 1. 使用 **Molt Research** → 协作研究
 2. 使用 **内容草稿生成器** → 撰写报告
-
-### 数据分析场景
-
-1. 使用 **社交媒体分析器** → 分析 campaign 表现
-2. 根据 ROI 结果调整策略
+3. 使用 **热点 Agent** → 获取研究素材
 
 ---
 
@@ -363,6 +513,6 @@ python scripts/calculate_metrics.py assets/sample_input.json
 
 ---
 
-**文档更新时间**: 2026-02-09 19:01 GMT+8
-**状态**: ✅ 已清理敏感数据，安全版本
-**安全检查**: ✅ 无API密钥或其他敏感信息
+**文档更新时间**: 2026-02-09 19:40 GMT+8
+**状态**: ✅ 已更新，添加热点 Agent
+**热点 Agent 状态**: ✅ 已创建完整技能模块
