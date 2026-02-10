@@ -1,0 +1,18 @@
+# GitHub 凭证和敏感配置
+.git-credentials-helper
+.env
+*.env
+.env.local
+
+# macOS 系统文件
+.DS_Store
+*.swp
+*.swo
+
+# OpenClaw 系统文件
+.clawhub/
+openclaw_data/
+
+# 临时文件
+*.tmp
+*.log

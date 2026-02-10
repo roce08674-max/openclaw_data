@@ -1,0 +1,36 @@
+{
+  "name": "knowledge-graph",
+  "version": "1.0.0",
+  "description": "知识图谱构建、嵌入学习和分析工具。支持实体关系建模、语义相似度计算、链接预测和知识推理。适用于热点事件分析、舆情监测、知识管理等场景。",
+  "author": "OpenClaw Agent",
+  "tags": ["knowledge-graph", "embedding", "reasoning", "nlp", "analysis"],
+  "capabilities": [
+    "知识图谱构建",
+    "实体嵌入表示",
+    "关系建模",
+    "语义相似度计算",
+    "链接预测",
+    "知识推理",
+    "事件关联分析",
+    "舆情监测"
+  ],
+  "requires": {
+    "python": "3.8+",
+    "stdlib": true,
+    "optional": ["numpy", "scipy"]
+  },
+  "scripts": [
+    "knowledge_graph.py"
+  ],
+  "examples": [
+    "从热点新闻构建知识图谱",
+    "计算事件间的语义相似度",
+    "预测实体间的潜在关系",
+    "分析舆情传播路径",
+    "构建领域知识图谱"
+  ],
+  "related_skills": [
+    "hot-agent",
+    "browser"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "team-tasks",
+  "version": "1.0.0",
+  "description": "多代理管道协调工具：线性、DAG和辩论模式，支持AI代理编排",
+  "author": "OpenClaw Agent",
+  "tags": ["coordination", "multi-agent", "pipeline", "orchestration"],
+  "capabilities": [
+    "线性管道模式",
+    "DAG依赖图模式",
+    "辩论模式",
+    "任务状态跟踪",
+    "并行分发",
+    "跨代理评审"
+  ],
+  "requires": {
+    "python": "3.12+",
+    "stdlib": true
+  },
+  "scripts": [
+    "task_manager.py"
+  ],
+  "examples": [
+    "创建线性管道任务",
+    "协调多个代理并行工作",
+    "设置依赖关系图",
+    "进行多代理辩论评审"
+  ]
+}

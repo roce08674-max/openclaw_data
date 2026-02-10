@@ -1,0 +1,50 @@
+# 热点Agent Python依赖列表
+# 创建时间: 2026-02-09 19:39 GMT+8
+# 更新: 2026-02-09 20:16 GMT+8 - 添加RSS支持
+
+# 核心依赖
+openai>=1.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+feedparser>=6.0.0  # RSS/Atom订阅源解析
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 网页解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 知识图谱
+networkx>=3.0
+pyvis>=0.3.0
+
+# 可视化
+matplotlib>=3.7.0
+wordcloud>=1.9.0
+
+# 文本处理
+jieba>=0.42.0  # 中文分词
+snownlp>=0.12.0  # 中文情感分析
+
+# API客户端（可选）
+# httpx>=0.25.0  # 异步HTTP客户端
+# aiohttp>=3.9.0  # 异步HTTP客户端
+
+# 进度显示
+tqdm>=4.66.0
+
+# 缓存
+diskcache>=5.6.0
+
+# 日期时间
+python-dateutil>=2.8.0
+
+# 类型检查（开发时使用）
+# mypy>=1.5.0
+# types-requests>=4.0.0
+
+# 测试（开发时使用）
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0

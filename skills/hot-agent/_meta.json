@@ -1,0 +1,44 @@
+{
+  "name": "hot-agent",
+  "version": "1.1.0",
+  "description": "智能热点事件分析与知识图谱生成工具 - 支持RSS新闻采集",
+  "author": "OpenClaw Agent",
+  "created_at": "2026-02-09",
+  "updated_at": "2026-02-09 20:16",
+  "category": "热点分析",
+  "tags": ["热点", "分析", "知识图谱", "心理分析", "RSS", "新闻聚合"],
+  "dependencies": {
+    "required": ["openai", "requests", "python-dotenv", "feedparser"],
+    "optional": ["pandas", "networkx", "beautifulsoup4"]
+  },
+  "features": [
+    "RSS新闻采集（无需API密钥）",
+    "多源新闻聚合（15+订阅源）",
+    "智能事件分类",
+    "现象追溯分析",
+    "心理状态分析",
+    "知识图谱生成"
+  ],
+  "data_sources": {
+    "rss": {
+      "enabled": true,
+      "description": "RSS新闻订阅源聚合",
+      "sources_count": 15,
+      "api_required": false
+    },
+    "search": {
+      "enabled": false,
+      "description": "搜索引擎API采集",
+      "api_required": true
+    }
+  },
+  "configuration": {
+    "api_keys": ["openai_api_key"],
+    "settings": ["time_range", "categories", "keywords", "limit"]
+  },
+  "documentation": {
+    "skill": "SKILL.md",
+    "usage": "HOW_TO_USE.md",
+    "references": "references/"
+  }
+}
