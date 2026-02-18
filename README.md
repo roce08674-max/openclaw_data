@@ -16,5 +16,4 @@ cp -R skills/codex-dev ~/.openclaw/workspace/skills/
 # or: ln -s "$PWD/skills/codex-dev" ~/.openclaw/workspace/skills/codex-dev
 ```
 
-Then restart OpenClaw Gateway (or wait for skills watch to reload).
-<img width="225" height="251" alt="image" src="https://github.com/user-attachments/assets/f3291374-6f5a-4966-9cba-bdd8ac84ede6" />
+Then restart OpenClaw Gateway (or wait for skills watch to reload)
