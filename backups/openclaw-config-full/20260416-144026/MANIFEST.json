@@ -1,0 +1,1224 @@
+{
+  "created_at": "2026-04-16T14:40:26.360884",
+  "backup_type": "sanitized-config-full-v2",
+  "files": [
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "09ee5fa068516ae8b4a4d10b72db7c9f0da80ddf59fcd364bdb524b7bc0a8ca4"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "26a27c55eac72a249d22fca845f68a4c1a46739fc614dd6caf551831d8d08890"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c6b07781457005873ae9bbe1b3903cb6168ae0bece9a6e25b33da3f759463109"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/agent/models.json.bak-gemini-url-fix-20260324",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/agent/models.json.bak-gemini-url-fix-20260324",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "6efcc2ba8a1c9743a40e9ec58e45a31ed4402d7be8eb188a556f89a0b7abdb53"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/1273390f-cf8b-4314-a96a-e62634ad9c3a.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/1273390f-cf8b-4314-a96a-e62634ad9c3a.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "fbe197cbae00bb2123c36b3b770f6f834d6a414a366c53ee395ea87dfb036437"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/14eef0c6-b952-4345-84e1-c5894c87bb14.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/14eef0c6-b952-4345-84e1-c5894c87bb14.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "6d2b7dde31c9d98a88f6f9d435d64963f80d4482afd8defc788e7429b3fb309e"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/294f31ba-bfb6-4531-93c8-e4ef4699e498.jsonl.reset.2026-04-08T09-23-36.952Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/294f31ba-bfb6-4531-93c8-e4ef4699e498.jsonl.reset.2026-04-08T09-23-36.952Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "39db0003fb3ed7949b92c6063b3906b9be13eee5a59c0213411cce22520ad057"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/4fa1020d-0c91-45bd-9333-c1924d56bb93.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/4fa1020d-0c91-45bd-9333-c1924d56bb93.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "9a0aeadc11e4b12bf7899544b0267133ba91e040be513a42ae766b0528abe0bd"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/5c7754ed-0e29-4734-87f8-14c78c04f892.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/5c7754ed-0e29-4734-87f8-14c78c04f892.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "4a78e6ccfbedf2a90a7586d57d1691400d71ae711d69e7704e5b22619ac9b997"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/6f56ac18-70b5-4c34-9b7f-8939202f696e.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/6f56ac18-70b5-4c34-9b7f-8939202f696e.jsonl",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c7147fdb0f26d50c5c988101936ad28338c5610dee0d9aa168414637be901ca0"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/8e38db89-9a51-490d-96be-18cb59134aa5.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/8e38db89-9a51-490d-96be-18cb59134aa5.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "f2e964bad85a08dd8aa88f1dde8eb8dca71e7e26d975a2ef8f833be1e0b447f9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/95299597-d9ee-49eb-86cc-59f8fba599ae.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/95299597-d9ee-49eb-86cc-59f8fba599ae.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "a0ba6728d6661176c749c58ca4460b1cbc0e292c2acd9e23a3aae1846e867ec5"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/a0d07942-dd70-4047-978d-9c9c8e90c8bc.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/a0d07942-dd70-4047-978d-9c9c8e90c8bc.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "bb9bc01cb5a0aa894d6f1ea9e015831fccc5036208f8c3453fc2134ec0c323a6"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/bc48cdd2-739e-48b4-ba75-0c6ba1113918.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/bc48cdd2-739e-48b4-ba75-0c6ba1113918.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "65d6a6ec842d6ad413d0097e331cbcf38608062c58230b4d5c15ef3c7f24df76"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/be37478b-625e-4303-bb0e-a72b1119bad7.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/be37478b-625e-4303-bb0e-a72b1119bad7.jsonl",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "080ecacda3b23426a1111bd4148d7f1100465aa3c7f486312309783dd9d9edb7"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/cff16eb8-426b-4e74-b1c1-af66bdd3e485.jsonl.reset.2026-04-08T08-48-23.407Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/cff16eb8-426b-4e74-b1c1-af66bdd3e485.jsonl.reset.2026-04-08T08-48-23.407Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "851d3e4d67a07dacf81f5311859320c9014cc99b09250ffa19cf3159bde62130"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/after-sales/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/after-sales/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "e326b84eaab7b95b7666238f00b3d7fc6fc4a05d3875cdc54aa353aa92f1a411"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8795600f4ee254ae7a5061d21628b77fe852c40680f5b76e0195665b2a1817b9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d38b52ced77b30e48fa0c49a0adcb0c27d71c22c5da687e86e9c2b5d184f1394"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b31838d49ba618e66cea834cd960459d178dfa47091690c5131a1cb2e956608a"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/sessions/9d932433-dcce-48f5-87e4-a743b4db3934.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/sessions/9d932433-dcce-48f5-87e4-a743b4db3934.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d163f897177b3b382be386b54341f415891ca92273e440507913154eba7554d3"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/sessions/d831f32a-42d3-409d-9e87-8159f369bc79.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/sessions/d831f32a-42d3-409d-9e87-8159f369bc79.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "b4c7f5f33d3ebed156c54c874e6abb495e7eb841d5fade2a0483d111f2492609"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/article-structure/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/article-structure/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "68c35efbdb292822dceca37535fc628059e07517169a3c0d7ab2dee47c2a8492"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/code_agent/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/code_agent/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8795600f4ee254ae7a5061d21628b77fe852c40680f5b76e0195665b2a1817b9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/code_agent/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/code_agent/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d38b52ced77b30e48fa0c49a0adcb0c27d71c22c5da687e86e9c2b5d184f1394"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/code_agent/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/code_agent/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/code_agent/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/code_agent/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b31838d49ba618e66cea834cd960459d178dfa47091690c5131a1cb2e956608a"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/code_agent/sessions/1f2cb54d-3a53-41f9-a9b6-27806d03957c.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/code_agent/sessions/1f2cb54d-3a53-41f9-a9b6-27806d03957c.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "03e5b148b70faf9afe359c48cbfc2ff2ec239492b5697a87c143458e862effe0"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/code_agent/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/code_agent/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c21e0dc7238eceef1323ba24d19b424086f000d722077179e33bb90aaaa0f896"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8795600f4ee254ae7a5061d21628b77fe852c40680f5b76e0195665b2a1817b9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d38b52ced77b30e48fa0c49a0adcb0c27d71c22c5da687e86e9c2b5d184f1394"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b919c99ae6772774057d7a9e6b6ed42648b7dd652bbce420a0a0461f91658927"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/agent/models.json.bak-gemini-url-fix-20260324",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/agent/models.json.bak-gemini-url-fix-20260324",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "e1a57f206665b40af89a5ccda3e2b9aef91042b33b8844ff968b93298e22b7ad"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/060a2d18-18c4-4d49-8d48-eaebe8e92e9b.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/060a2d18-18c4-4d49-8d48-eaebe8e92e9b.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "75d200b06515108c3ed7170ea77d819861d58f38a9c862f2e4a3e32d527f9087"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/331a78f0-614a-4a98-bffe-8766cd17e7fb.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/331a78f0-614a-4a98-bffe-8766cd17e7fb.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e593e4870c08011b189969df7aef8e1e4b3d66c6d77d71cf5684f3ed2abb73f9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/4e912974-0c8f-4460-9e50-86b37336247f.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/4e912974-0c8f-4460-9e50-86b37336247f.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "df2d1b78aa2714757efb8d71eefc284cb073e1126f8d326b42ce910f9907f870"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/93c118bd-f93e-4368-9a7b-7ea5fcc31ab3.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/93c118bd-f93e-4368-9a7b-7ea5fcc31ab3.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e8a45decf91dd0245a5a88c2c66b7e1e309f03596a12ce719dcb5f5d376de90b"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/a850a9a3-04c0-4e37-b361-367524bc71ef.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/a850a9a3-04c0-4e37-b361-367524bc71ef.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "1c61252e73b1f22ef1cc7077f6f15a5dd9de0a3f1ab480600da65993db58b19b"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/dfeb1276-481b-47b2-b296-455da4c16eb0.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/dfeb1276-481b-47b2-b296-455da4c16eb0.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e368107521384d475a2415c7b6acc91bb19bc5773fe742eeb2d9917a1ba3207c"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/e5730bac-f552-41bb-993f-18cf89f7c5c1.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/e5730bac-f552-41bb-993f-18cf89f7c5c1.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "90fa389c6645209a9b83d362b9e4247e7e894f7efd2b97f4f06476ba26927e5f"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/hot-topics/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/hot-topics/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "434dfe95d1e91a77918b1774443ce093bb8f0334d3fece053f3fbc7686406a65"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8795600f4ee254ae7a5061d21628b77fe852c40680f5b76e0195665b2a1817b9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d38b52ced77b30e48fa0c49a0adcb0c27d71c22c5da687e86e9c2b5d184f1394"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "f2eae6bb43912cbc6988c14d9acf1acfb4e30be8b0042b9c3564149a4d250e66"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/agent/models.json.bak-gemini-url-fix-20260324",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/agent/models.json.bak-gemini-url-fix-20260324",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "6efcc2ba8a1c9743a40e9ec58e45a31ed4402d7be8eb188a556f89a0b7abdb53"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/sessions/3039d64e-701d-49fc-97a2-c24fc7d0fc26.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/sessions/3039d64e-701d-49fc-97a2-c24fc7d0fc26.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d7dd4f28379316525122d254ba97ea88197b7fef84f66e873892244d2a101854"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/sessions/372b9eac-51f9-4782-afd1-8523ba63a682.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/sessions/372b9eac-51f9-4782-afd1-8523ba63a682.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "8b97e10459bf82b39f3fae26c76d7abeaad20b012de55dd4111ac183ee3349b8"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/image-text/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/image-text/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b51e5bf94694de6b48dbf8e6dc8af203793c62b72a0aabe30c715e606c843d15"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "e9c635dc609fe15eb43ad798f917777e7b07b90f822d00d6ab1f9581d90d20e4"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/auth-profiles.json.bak-auth-refresh-2026-03-21T09-13-44.888Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/auth-profiles.json.bak-auth-refresh-2026-03-21T09-13-44.888Z",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "4f8a4b6246c488ce780df6c4a8856ed538a10ff32c786bac6397286d1e072cbc"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c6d977f34354ed8048b1af08505d515e4b01b66d3b1614531fe77e50ae613fcc"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "3cbbf2ff25ef19e572410c36af1263945607cdf82f8a11a5aaedcbb182f3bd2b"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/auth.json.bak-auth-refresh-2026-03-21T09-13-44.889Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/auth.json.bak-auth-refresh-2026-03-21T09-13-44.889Z",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "59c55d5e671c567d03159981ae189f75548740a89db3a8dd9ee19c3826563407"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/auth.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/auth.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c3cd696242c3b86b282cb0b454a998ae12954ad95f677121112cb98812fda663"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c6b07781457005873ae9bbe1b3903cb6168ae0bece9a6e25b33da3f759463109"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/agent/models.json.bak-gemini-url-fix-20260324",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/agent/models.json.bak-gemini-url-fix-20260324",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "e1a57f206665b40af89a5ccda3e2b9aef91042b33b8844ff968b93298e22b7ad"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/01968b6b-993c-442a-8620-4ffe70b08354.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/01968b6b-993c-442a-8620-4ffe70b08354.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "9d90ed14e38ac8f385939f29f9b26843b01a118da105fe3326d57707b503b952"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/105c6557-42fd-4b4a-8447-3264d86effaf.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/105c6557-42fd-4b4a-8447-3264d86effaf.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "237fbe47a18e968be32009a846f40d526a0b8bf7e6fc28c06d5ca4ad4219c079"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/17ebae12-226e-4be6-afea-afb26197897d.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/17ebae12-226e-4be6-afea-afb26197897d.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d3fabe2558c3e7bb86550aae2e3c54ba8f9a12946eed5cbfac0de392515ffadf"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/1d52ab65-8749-48f8-8192-5bcbb3481f16.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/1d52ab65-8749-48f8-8192-5bcbb3481f16.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "badfcc5c73b8197fc2759164d39a019958636ced87176bc04cd2ec6de1c0f4da"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/2457fa00-20db-47d5-b8b7-85d4fe19c1fa.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/2457fa00-20db-47d5-b8b7-85d4fe19c1fa.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "5cae52287753ce93060fce62698aeca1b44a1f1b2d86207546397a59ba189e0e"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/2541318d-131d-4d9b-abce-808690cd91c6.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/2541318d-131d-4d9b-abce-808690cd91c6.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "96bfe620f09947e4e5a6f96e22b31c7b2ab193b2ec2a18f4746a7c3f627e0c5c"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/2b3e4669-8060-4e9d-a270-e78b0b6da41b.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/2b3e4669-8060-4e9d-a270-e78b0b6da41b.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e9a303e75ec11fd7d5a1fba76d63b8bf6ee11fbe49b51855ae451c9276a37af1"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/2e00998f-6504-4680-889f-1f38c1ee1a38.jsonl.reset.2026-04-11T05-12-32.819Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/2e00998f-6504-4680-889f-1f38c1ee1a38.jsonl.reset.2026-04-11T05-12-32.819Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "b16d5efce939a4b86e89df9589d450161df91f2d43135c8ad415ac4495d4496d"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/37c99a18-8077-433b-9cdd-33a20a543990.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/37c99a18-8077-433b-9cdd-33a20a543990.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "aa72162e4c2db4e31a1d9d1d180dcaa88dbf79edd310bacd378a3ff040b7ef97"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/3b7c64e4-5a79-424d-81ac-420aaa04bdf6.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/3b7c64e4-5a79-424d-81ac-420aaa04bdf6.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "9ec9c2bc8c0fe594a6d97d96e46405f53e278a66bd5e23f3d1cbda4882a65bb5"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/40ad8d4e-61e2-45f4-a1e9-4988681e65cc.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/40ad8d4e-61e2-45f4-a1e9-4988681e65cc.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "6426ffe1119937ae64b2faa14280ed45d8b8bc21cfebfc0c21bea9066e760fe6"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/4e5abc92-4a18-4a66-a612-165546a436c0.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/4e5abc92-4a18-4a66-a612-165546a436c0.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e536311f462fcef1ea9c845f7df94a6a9ab252aef905742ace4cca9c1ce94e0d"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/55c450aa-b937-43c9-829e-26d80b3f61c6.jsonl.reset.2026-04-14T03-24-07.829Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/55c450aa-b937-43c9-829e-26d80b3f61c6.jsonl.reset.2026-04-14T03-24-07.829Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "a85f54de2ee6d8ec5810016d34f65ff3f9dcbf8ed8bad20e61c935d0ca98debb"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/5816ad00-abe6-4fc3-9a42-4a33ea469e6d.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/5816ad00-abe6-4fc3-9a42-4a33ea469e6d.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "99619723bebe03d38008e127442ec54ee1dac7b6664d3d1e42aeeac15b18a877"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/6e6a385a-e9ac-460f-98c4-13c741e3a227.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/6e6a385a-e9ac-460f-98c4-13c741e3a227.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "58ead14e91f7e5f8f773e7535dd14735f0f24e9dc1e045a8cea9800955b4b7b7"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/710ff18b-d42b-4b70-8f2a-cb44176f1ab2.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/710ff18b-d42b-4b70-8f2a-cb44176f1ab2.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "6943f2fd78b1cacd5aa4d1d0050a19b6bc02a4673aea340bb0365382962af7b5"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/734c14ed-d36b-468a-9161-0c75253d551e.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/734c14ed-d36b-468a-9161-0c75253d551e.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "7dfbecfa82e5560f48029036b0bcdbe327f2d98f1bdcd5d87e54838508f38a83"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/7b14fba2-cc62-4b29-a054-9678ea573cae.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/7b14fba2-cc62-4b29-a054-9678ea573cae.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "3b071174cdde483e2afe8a5fac71728a5950c8b2cef22dc1f6a9a481e98d9c4e"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/8b5b5652-e6e3-4bb7-9dde-d50b9ab28070.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/8b5b5652-e6e3-4bb7-9dde-d50b9ab28070.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "f4e4869f3149eb97783a8cfc2768508ac4cd0369d3f13d79ad266d7f6970c588"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/94b9889f-8c5b-4e54-91f2-5805108893ff.jsonl.reset.2026-04-16T06-12-44.034Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/94b9889f-8c5b-4e54-91f2-5805108893ff.jsonl.reset.2026-04-16T06-12-44.034Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "eb8b3e964b1037f42352de10d4d79878898fd6f6510b69069bf8e8519c9a919b"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/a5441093-3bb2-42ef-b832-b89e87895565.jsonl.deleted.2026-04-16T02-02-10.170Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/a5441093-3bb2-42ef-b832-b89e87895565.jsonl.deleted.2026-04-16T02-02-10.170Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e997e4e8dab23558cf3702f041ed8e91ad37247a5cc20e49712b2ffc410c0471"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/a70d6810-514e-4db0-868a-6c0efb967fb7.jsonl.reset.2026-04-10T12-22-36.823Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/a70d6810-514e-4db0-868a-6c0efb967fb7.jsonl.reset.2026-04-10T12-22-36.823Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "a3fd70994f679ee831d23d1924277c003d9e500721651bd5a689d7499209da81"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/a8c8a83c-8944-472e-964f-33efcc2933a4.jsonl.reset.2026-04-10T12-34-22.560Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/a8c8a83c-8944-472e-964f-33efcc2933a4.jsonl.reset.2026-04-10T12-34-22.560Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "49aefb90f718506e81297083db0d2fef63d9186f07095ec63ae3f3240de08c2c"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/aad17443-2465-4501-9929-883d5663252a.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/aad17443-2465-4501-9929-883d5663252a.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "dadbb244ab6d6f18908330dc2ad6c27ccbd63afaa98e13aed5c80a1cc18ae2ce"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/b99b4bf8-1857-40eb-942e-5de6ad958517.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/b99b4bf8-1857-40eb-942e-5de6ad958517.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "e433b1b44e7bd2211de53fdc72dc75793c2b67ff95833d40daad49d39eec1e78"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/baf677fe-050e-4f97-99f5-92e9081aa3d9.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/baf677fe-050e-4f97-99f5-92e9081aa3d9.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "38fe90c79f1e5716240beb5ac59271b6aea8cf232faff9d474aeea68f2ad682f"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/c0182241-5fc1-48d4-91d6-0ef0851bfcee.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/c0182241-5fc1-48d4-91d6-0ef0851bfcee.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "538f4f38d59f35057d4d60f152b9b2175705c054b6a4b19542dbd453cfe3326c"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/c127047c-f2f1-4574-9344-54aef2679869.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/c127047c-f2f1-4574-9344-54aef2679869.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "6abbd4ce5820f4d9658c986c81838e99030bc6d304201c576d80eea7b075707c"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/c6ec846e-3d3c-48e7-9712-79163cdfd237.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/c6ec846e-3d3c-48e7-9712-79163cdfd237.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d021f4aeb88d387fee062a0585c89a6673faf708f0fc8b4728a620e7d656d484"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/d6b6f830-a92d-4d6f-b564-4b5c31528d9c.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/d6b6f830-a92d-4d6f-b564-4b5c31528d9c.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "da5c0dd953fe9005cdf2cf2ed627f490c9705ef11f606afbbfeaf1c07bb3c538"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/de185a1c-30b1-4a57-bd4f-3a6868df9cde.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/de185a1c-30b1-4a57-bd4f-3a6868df9cde.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d63900dfe58a963c7178123944659f9eee39c8cace58460ea4f1e5b59504aa4e"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/ef326870-ae7d-4b38-a641-370a7e6aa78b.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/ef326870-ae7d-4b38-a641-370a7e6aa78b.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "8c09db84c993caef592d14ba7efc52511d1159cfe039ceeb06c7f07696193e51"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/ef326870-ae7d-4b38-a641-370a7e6aa78b.jsonl.lock",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/ef326870-ae7d-4b38-a641-370a7e6aa78b.jsonl.lock",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "f7b7d5eb9342a36109b3b1b7fdf49f4ac2023ca449688da88cf5ca1d4b6a66ee"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/f2d748f5-5a2b-4add-b371-5dbaca870b25.jsonl.reset.2026-04-13T08-44-01.068Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/f2d748f5-5a2b-4add-b371-5dbaca870b25.jsonl.reset.2026-04-13T08-44-01.068Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "88814274fe5e3fffbdf2ff10c7b825dc5c85d2639d98b67d1bcbc12f49ffb665"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/f62cb454-081e-46b3-a111-193c449b01a0.jsonl.reset.2026-04-08T07-52-14.958Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/f62cb454-081e-46b3-a111-193c449b01a0.jsonl.reset.2026-04-08T07-52-14.958Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "065e76aa5417a6178c94bd0197646810ebb91a727355bc92821d18fd6343c4ab"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/fb2b4919-cf8e-4790-842b-10ec17732c89.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/fb2b4919-cf8e-4790-842b-10ec17732c89.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "c55de91a6e371acb0eca741d3a4de2f0e5ab7830817b6b2e8f30c203aa6e659d"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/febec85f-97c5-4e36-93f3-9e05dea38f28.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/febec85f-97c5-4e36-93f3-9e05dea38f28.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "4d9bb52143cf0d5e9cd18a3384008caa772e1931b87bc4012c41e89be35c3138"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/main/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/main/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d066c2c811f6c7c7b9f8e78e63a8e44a1d6df56cc463ba97496de0f1b9d32eaf"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "e063b22adb7c7625363a9b141b7f9895b9408444a3a539d79bf8c0e75b7373e3"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "3c59d7457920282a728704ea7a0fa704aa1e80b3be0fac9e7139d26a41846dd5"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c6b07781457005873ae9bbe1b3903cb6168ae0bece9a6e25b33da3f759463109"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "60c2f3ee3fb89758bf2078423b1d2f59c9f6031889c2d76acce9359f71040548"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "6db06ecb120f0e9d3f2f3da1f64ec1c8e89fbf42ed14514c4c9fdb91059595f2"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b919c99ae6772774057d7a9e6b6ed42648b7dd652bbce420a0a0461f91658927"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/models.json.bak-gemini-url-fix-20260324",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/models.json.bak-gemini-url-fix-20260324",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "6efcc2ba8a1c9743a40e9ec58e45a31ed4402d7be8eb188a556f89a0b7abdb53"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/04e51421-c424-4a04-b8a7-25480334d428.jsonl.reset.2026-04-10T07-31-22.990Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/04e51421-c424-4a04-b8a7-25480334d428.jsonl.reset.2026-04-10T07-31-22.990Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "31f3f455c3d4bff043d2c0cfebc557fe48297d5611f9bd653bedd4d0d6a092ab"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/4e676e4a-80b5-470d-a565-7cddd8e5254f.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/4e676e4a-80b5-470d-a565-7cddd8e5254f.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "16ee40d292b225c6194386dd1e34efb87a842ec85bdbe421360004e58e16c623"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/5a47148c-b2e4-4d94-bac8-aca3f2731eb5.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/5a47148c-b2e4-4d94-bac8-aca3f2731eb5.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "9a082327dbed524006481731e0e5612b5da8972824ee80ac5c9a1213fa5c13ca"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/7c52f872-bd85-4a75-b938-d593ce18a97f.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/7c52f872-bd85-4a75-b938-d593ce18a97f.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "1c909065a1eb1935f82f71205c2cfe506c823bfb3fa9b31636e91ca31f573283"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/85e3db66-296e-4cd7-8f94-f116a4baff27.jsonl.reset.2026-04-08T13-12-49.687Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/85e3db66-296e-4cd7-8f94-f116a4baff27.jsonl.reset.2026-04-08T13-12-49.687Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d52b27e3b7ce64e841a4a052726b024e883819d5aeaf36fd533b3596a312d059"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/9ac8761f-81f3-4588-a1ee-face768ef169.jsonl.reset.2026-04-11T05-17-29.534Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/9ac8761f-81f3-4588-a1ee-face768ef169.jsonl.reset.2026-04-11T05-17-29.534Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "bde29f6e1e43c370f8854edbcbb092ea6e6eb1ee387e1ae1c2225db8b38e5d5a"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/d3e541b6-46a4-4743-8eed-e37c43953c50.jsonl.reset.2026-04-10T06-54-49.325Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/d3e541b6-46a4-4743-8eed-e37c43953c50.jsonl.reset.2026-04-10T06-54-49.325Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "a6e185ffc851a4ed28defbb787194739dbf3f652bcb3765880f12624ba823894"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/d89e391f-dede-44f7-b905-c63e065f0542.jsonl.reset.2026-04-16T02-31-10.951Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/d89e391f-dede-44f7-b905-c63e065f0542.jsonl.reset.2026-04-16T02-31-10.951Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "37e29c7456ea68b9aa5f3e28cacb6ceaae8b61e863cb3722ac3cc567ea8b8cd4"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/ea6878c0-e992-482c-a4ad-25c0a244c3f2.jsonl.reset.2026-04-08T13-31-45.806Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/ea6878c0-e992-482c-a4ad-25c0a244c3f2.jsonl.reset.2026-04-08T13-31-45.806Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "aa8c11d7f19cb2f772d950481baea1ba48758bcbba1d253fa2a483df39b6fbca"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/merchant-onboarding/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/merchant-onboarding/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "464d102994820bc3e941d76f4c662b5e57e36f1abf824fe9b8ac20dacb107163"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/openclaw-optimizer/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/openclaw-optimizer/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8795600f4ee254ae7a5061d21628b77fe852c40680f5b76e0195665b2a1817b9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/openclaw-optimizer/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/openclaw-optimizer/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d38b52ced77b30e48fa0c49a0adcb0c27d71c22c5da687e86e9c2b5d184f1394"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/openclaw-optimizer/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/openclaw-optimizer/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/openclaw-optimizer/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/openclaw-optimizer/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b919c99ae6772774057d7a9e6b6ed42648b7dd652bbce420a0a0461f91658927"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/openclaw-optimizer/sessions/9354afae-1f55-4c4b-807f-3f46fad21252.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/openclaw-optimizer/sessions/9354afae-1f55-4c4b-807f-3f46fad21252.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "13909d0f9d802714ae16a80a2500f2cb6792cc5ed94bbd94bdb760e11304edfc"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/openclaw-optimizer/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/openclaw-optimizer/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "34acdba552a81b8307ec6e95787995c298dbfe1b84b69f548963bf8fdd7251bc"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "6a13d1e0d0099066e26a1638340a6252d0e7c8582cb6ecdf59238880429ed3e4"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "eec3e804c710ba64a5ec203ed48e6214f45493e8066b79a58c8ebbc61df8bfb6"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b60a2eb6f9df1b62245f0b6522efe3808b1918b8ce7e0364bf0b33bf636ebc6d"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/agent/models.json.bak-gemini-url-fix-20260324",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/agent/models.json.bak-gemini-url-fix-20260324",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "14e201bc7d0d83a8f4bec66d3c74da486b0859e7cec8208d33f5f27aa4a80976"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/0c41b76a-ef87-4fbf-aad0-805d6ea52c13.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/0c41b76a-ef87-4fbf-aad0-805d6ea52c13.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "c22081c99ed2333ec320bd71a7f8dc367f178bd6a8555e491a48e46c79b72e41"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/1d25c229-cad5-4137-b307-65d26b82f772.jsonl.reset.2026-04-10T06-57-26.032Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/1d25c229-cad5-4137-b307-65d26b82f772.jsonl.reset.2026-04-10T06-57-26.032Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "4077d3ca319001067541e6035c6380b8c5fd3bff9c11113abfab3e6aeb4f6e89"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/261ff148-5a36-4e7d-8972-a3cf3ba2fc46.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/261ff148-5a36-4e7d-8972-a3cf3ba2fc46.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "096f1fb4253f1d8f6dbb4de57d605c648247b3f3e425283151a339965d453153"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/2d58bb33-7188-4ec3-be9c-2ef3f6e68aee.jsonl.reset.2026-04-10T13-25-57.996Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/2d58bb33-7188-4ec3-be9c-2ef3f6e68aee.jsonl.reset.2026-04-10T13-25-57.996Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "c096df7ee198eea72bf8f22c04ab7f6761c057b5ad44d1643aa66a6da3233ff7"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/3c477dcd-c6d5-4cc3-8965-266d50b27ab9.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/3c477dcd-c6d5-4cc3-8965-266d50b27ab9.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "1b927690e53f63f6deacad54a9dc5314e8e39b624475220f5764dd0c2cedebb6"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/4cab5884-1a3c-4691-8ac2-c1adc9fac4f1.jsonl.reset.2026-04-10T12-35-36.017Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/4cab5884-1a3c-4691-8ac2-c1adc9fac4f1.jsonl.reset.2026-04-10T12-35-36.017Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "fd07d5b4175d5d46a6aa7bd5f26f81e80d0762889bd7daac81cc1fcca1ece029"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/52b622be-67d2-43fe-a37b-9a06b5b4d941.jsonl.reset.2026-04-10T13-05-00.786Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/52b622be-67d2-43fe-a37b-9a06b5b4d941.jsonl.reset.2026-04-10T13-05-00.786Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "ea2cac5a8128185fd62a29b61c48fe9d385df160f427deca1513e467fc70896b"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/8cf5c100-7ef5-4b5e-a733-34a673a85cea.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/8cf5c100-7ef5-4b5e-a733-34a673a85cea.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "f1e87d1f5aa3848c6f2fcbbc583d77ada5b97374c5628fd7cbff085e64a60803"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/9da14d6e-4deb-410f-8307-d9361d9ac1d9.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/9da14d6e-4deb-410f-8307-d9361d9ac1d9.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "b1658e0fe2578316e442367121cc2df307b6cdab292a68b35d7417a3ebe91969"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/d3154521-187d-4848-9f88-2d26d52fdc5e.jsonl.reset.2026-04-10T13-33-26.171Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/d3154521-187d-4848-9f88-2d26d52fdc5e.jsonl.reset.2026-04-10T13-33-26.171Z",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "0b51efee756b1cfdfb956bf836dfebc109059340773392f0b4415f1fe74b9f13"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-140630-1.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-140630-1.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d3529de7de7a01edea3386a7f759e269926b015c58e3d4b70c69980ce8b29149"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-142946-1.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-142946-1.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "d89b4da90bafe33ab7c4c10e83ce968aea950f9d4d1b8c6406350c37b37f0abc"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-151223-1.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-151223-1.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "ace0cb0c01dd910891d9aa62a3565933dc08ce09571c8ef98dc5beceba2054f6"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-151453-1.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-151453-1.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "2b9d062e407d6380bfecb121d8574ca428a573e7ba8855d631ecf1536c438b6e"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-152735-1.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/rewrite-article-rerun-20260324-152735-1.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "a10c422ff9d51414fc6bc797765176995057613270fc06009f57b06135781ea8"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "0c61b4bbccd0fd4dec3d2eca1b2b612fc3076628d76ea40203e86ff89b03f058"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/rewrite-article/sessions/test-final-1774336821.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/rewrite-article/sessions/test-final-1774336821.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "3ab8c14848d2433295d245b8269dc18db44cbf5468637d93ae19a89017b43589"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/viral-titles/agent/auth-profiles.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/viral-titles/agent/auth-profiles.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8795600f4ee254ae7a5061d21628b77fe852c40680f5b76e0195665b2a1817b9"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/viral-titles/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/viral-titles/agent/auth-profiles.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "d38b52ced77b30e48fa0c49a0adcb0c27d71c22c5da687e86e9c2b5d184f1394"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/viral-titles/agent/auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/viral-titles/agent/auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/viral-titles/agent/models.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/viral-titles/agent/models.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "b31838d49ba618e66cea834cd960459d178dfa47091690c5131a1cb2e956608a"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/viral-titles/sessions/e0772719-55e9-49dc-9feb-0f72458e1821.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/viral-titles/sessions/e0772719-55e9-49dc-9feb-0f72458e1821.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "db9109199c61615fcf7f7d751da8de4a391fc74af8140a706cf7b613629e1339"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/agents/viral-titles/sessions/sessions.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/agents/viral-titles/sessions/sessions.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "9006e15b07242b7348f02fb91093e2be1c0bd9331db5edffcbab1ca9de07ead7"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/browser/chrome-extension/manifest.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/browser/chrome-extension/manifest.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8f4dd7526489d782d8e46e803435235129d391cb184c720c5f02a42a5f91224f"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/credentials/oauth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/credentials/oauth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "de250add86bbb5e58d653d6ab23ab8f8dc498cc49dab4e5d5cd37b21c98fea32"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/credentials/oauth.json.bak-auth-refresh-2026-03-21T09-13-44.889Z",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/credentials/oauth.json.bak-auth-refresh-2026-03-21T09-13-44.889Z",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c77a5765d151bdd423da2123d3e56286fb4a1f697ab8c0ba03d86f773969a7e3"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/credentials/oauth.json.bak-codex-refresh-20260311100351",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/credentials/oauth.json.bak-codex-refresh-20260311100351",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "771a3776b7000938e2129dc86b0679ecaa394133c2333428625a56a6722df19e"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/credentials/oauth.json.bak-sync-20260410-203327",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/credentials/oauth.json.bak-sync-20260410-203327",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "1f34f1e7cb1cd0f35f3016ccbe4b361acd2d277a81ba7227679882b501341a4f"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/jobs.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/jobs.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8104c34b35c7e67076353983f93c937bec81758391bf7bab7d18dc7a5d9d6416"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/jobs.json.bak",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/jobs.json.bak",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8104c34b35c7e67076353983f93c937bec81758391bf7bab7d18dc7a5d9d6416"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/jobs.json.bak-20260312-170424",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/jobs.json.bak-20260312-170424",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "cf0a675fb1c75ba192865c9c40af71104fc399a7862e9f4d6704134dcbbff3dc"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/jobs.json.bak-20260312-170553",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/jobs.json.bak-20260312-170553",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "8c346bd232bb5c6163e3a32bce00d8f4d6021f74845c2ca9fed3eda2085c15ec"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/runs/578619e8-ad63-46be-b038-fc8b10cdc217.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/runs/578619e8-ad63-46be-b038-fc8b10cdc217.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "6d8efd8301d15c29426aef0258bbc260e75bbe8da070b0034be9bbead5dbbbcd"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/runs/662deb29-337a-4e46-8843-35f6282691c8.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/runs/662deb29-337a-4e46-8843-35f6282691c8.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "4fe07c0c18aae236939f1881b53a3be21c51cac46e8da70df2a57c6aaeb39222"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/runs/9c62c0e0-94c0-4788-b8ad-ed4e96900625.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/runs/9c62c0e0-94c0-4788-b8ad-ed4e96900625.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "a785da53e55eaf47ec7e634bd3935f07e540a65b4c383917b09994092bebc982"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/runs/de5b36b8-921b-4753-9f67-72c40ca16431.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/runs/de5b36b8-921b-4753-9f67-72c40ca16431.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "dba1239ac713a0a78853c523c565bd6d05ca849c441180aa858dbd64c9442a1b"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/cron/runs/e8cb043b-3b0e-4316-bfae-60c4a85156c5.jsonl",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/cron/runs/e8cb043b-3b0e-4316-bfae-60c4a85156c5.jsonl",
+      "status": "ok",
+      "mode": "plain-copy",
+      "sha256": "1aa7b598edd06a984402b16a1c769cbfc0c595646886d0ffb1797b5d60e28aaf"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/devices/paired.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/devices/paired.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "7cb9d331c0d329c751e3ef19f114f4418ac20586baf99759e326efda114edbc5"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/devices/pending.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/devices/pending.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/exec-approvals.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/exec-approvals.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "0ebccbdbd7ff65cd4130256bb2b0282786ffd0ee6cffd1e897131b6b17728f27"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/feishu/dedup/default.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/feishu/dedup/default.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "c477e7942af8bc0508b8156ef7dc898dcc83c4a7fcd8a6f8799efa145166f6ab"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/identity/device-auth.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/identity/device-auth.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "beb454fae175caf1491b4160b656effe78a0abaa351486365755cf7669f88267"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/identity/device.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/identity/device.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "1d6a9ec292bb75bddb19fa81543f8380b2e2848d343387faecb9b4d8fbc0037a"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/openclaw.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/openclaw.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "18789f6f61141e5bc71dd35f797bae107f54d770dc400c4fd36bb3b99921c810"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/openclaw.json.bak",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/openclaw.json.bak",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "f412d38f166ace360d53b8810e21c7a6302a7adb36de141fb7401578e9d07854"
+    },
+    {
+      "source": "/Users/chongya/.openclaw/update-check.json",
+      "backup": "/Users/chongya/.openclaw/workspace/openclaw_data/backups/openclaw-config-full/20260416-144026/update-check.json",
+      "status": "ok",
+      "mode": "json-redacted",
+      "sha256": "4d42913d2e9629cec2390cf3a2ccccce87042ce0302bf1ba6cccae9eb931157f"
+    }
+  ]
+}

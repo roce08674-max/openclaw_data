@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "profiles": {
+    "openai-codex:default": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "access": "eyJ***REDACTED***Jio",
+      "refresh": "rt_***REDACTED***_0c",
+      "expires": 1775811945231,
+      "accountId": "e3372e1c-a042-4d4a-88c8-f809f43afaa2"
+    }
+  },
+  "lastGood": {
+    "openai-codex": "openai-codex:default"
+  },
+  "usageStats": {
+    "openai-codex:default": {
+      "errorCount": 0,
+      "lastFailureAt": 1774058446518,
+      "lastUsed": 1775806823380
+    }
+  }
+}

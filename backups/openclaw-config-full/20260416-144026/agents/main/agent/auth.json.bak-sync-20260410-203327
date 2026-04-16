@@ -1,0 +1,8 @@
+{
+  "openai-codex": {
+    "type": "oauth",
+    "access": "eyJ***REDACTED***Jio",
+    "refresh": "rt_***REDACTED***_0c",
+    "expires": 1775811945231
+  }
+}

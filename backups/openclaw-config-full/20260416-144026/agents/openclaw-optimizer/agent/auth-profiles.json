@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "profiles": {
+    "openai-codex:default": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "access": "eyJ***REDACTED***Zko",
+      "refresh": "rt_***REDACTED***Bro",
+      "expires": 1776677613913,
+      "accountId": "e3372e1c-a042-4d4a-88c8-f809f43afaa2"
+    }
+  },
+  "lastGood": {
+    "openai-codex": "openai-codex:default"
+  }
+}

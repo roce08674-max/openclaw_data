@@ -1,0 +1,8 @@
+{
+  "openai-codex": {
+    "type": "oauth",
+    "access": "eyJ***REDACTED***qLs",
+    "refresh": "rt_***REDACTED***asA",
+    "expires": 1774080991000
+  }
+}

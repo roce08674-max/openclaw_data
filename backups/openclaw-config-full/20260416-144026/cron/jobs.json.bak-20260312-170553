@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "578619e8-ad63-46be-b038-fc8b10cdc217",
+      "agentId": "main",
+      "name": "定时心跳 - 主会话",
+      "enabled": true,
+      "createdAtMs": 1770871773816,
+      "updatedAtMs": 1773280830443,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "***REDACTED***",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "【每日状态摘要】当前时间：{{current_time}}（Asia/Shanghai）。\\n请执行只读检查：\\n1) openclaw status --deep\\n2) openclaw security audit --deep\\n3) openclaw update status\\n然后给出结论：\\n- 若发现 warn/critical、更新可用、Feishu异常、Gateway不可达、cron连续失败等，输出“需要处理”的要点清单（含建议下一步命令）。\\n- 若一切正常，仅输出一行：系统正常，无需处理。",
+        "model": "openai-codex/gpt-5.2",
+        "thinking": "off"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "main",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1773367200000,
+        "lastRunAtMs": 1773280800014,
+        "lastStatus": "ok",
+        "lastDurationMs": 30429,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "unknown"
+      }
+    },
+    {
+      "id": "9c62c0e0-94c0-4788-b8ad-ed4e96900625",
+      "agentId": "main",
+      "name": "Daily review: code_agent evolution",
+      "enabled": true,
+      "createdAtMs": 1771656851369,
+      "updatedAtMs": 1773277443956,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "***REDACTED***",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "生成《code_agent 每日复盘报告》（过去24小时，Asia/Shanghai）。要求：\n1) 抽样最近 24h 与 code_agent 相关的会话输出（用 sessions_list / sessions_history），重点关注：是否涉及 L2 高风险动作、是否按 Two-man rule 输出变更回执并等待确认。\n2) 额外加入“API 稳定性/限流防护”检查项：是否出现 429/timeout/fetch failed / missing key；是否按 API_LIMITS 采取 退避→降级→熔断；是否避免连续重试刷屏。\n3) 按 /Users/chongya/.openclaw/workspace/agents/code_agent/playbooks/DAILY_REVIEW.md 的固定格式输出。\n4) 若发现新踩坑，追加到 knowledge/PITFALLS.md（仅追加条目，不要删改历史）。\n5) 若发现可复用模式，更新 templates/ 或 knowledge/CHECKLISTS.md（小改动即可）。\n6) 最后给出“明日改进最多2条”。\n\n注意：如果当天没有新任务，也要输出“无新增任务 + 巩固动作”。\n不要执行任何 L2 变更（只读分析 + 文档沉淀）。"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1773363600000,
+        "lastRunAtMs": 1773277200010,
+        "lastStatus": "error",
+        "lastDurationMs": 243946,
+        "consecutiveErrors": 19,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "unknown",
+        "lastError": "No delivery target resolved for channel \"feishu\". Set delivery.to."
+      }
+    },
+    {
+      "id": "de5b36b8-921b-4753-9f67-72c40ca16431",
+      "agentId": "openclaw-optimizer",
+      "name": "OpenClaw memory research scan (15m)",
+      "enabled": true,
+      "createdAtMs": 1773306264441,
+      "updatedAtMs": 1773306353583,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "***REDACTED***",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "openai-codex/gpt-5.2",
+        "thinking": "off",
+        "message": "你是 openclaw-optimizer 子 agent。\n任务：每 15 分钟做一次‘OpenClaw 记忆管理/上下文管理’资料扫描，渠道尽量覆盖：\n1) OpenClaw 官方文档（优先本地 docs；其次 https://docs.openclaw.ai）\n2) OpenClaw GitHub（release notes / issues / PR 关键词：memory, context, compact, sessions, cron）\n3) YouTube（如无法稳定抓取搜索结果，则记录为‘本轮不可用’，不要编造）\n4) X/Twitter（同上：若不可用，记录原因；不要编造）\n\n硬规则：\n- 不允许捏造来源；每条结论必须带 URL 或本地路径。\n- 如果本轮没有新信息，输出‘无新增’并说明检查了哪些渠道。\n\n输出：\n- 写入 Markdown 到：~/.openclaw/workspace/agents/openclaw-optimizer/research/memory-management/YYYY-MM-DD/HHMM.md\n- 格式：\n  - 本轮时间戳\n  - 新发现（带链接、要点、对我们“统一记忆目录+symlink约束”的影响）\n  - 建议动作（最多 3 条）\n  - 待验证问题\n\n最后在本轮会话中给 main channel 输出一段 5-10 行摘要，并注明生成的文件路径。\n\n注意：只读研究，不要执行任何破坏性操作/配置修改。\n\n【输出模板强制覆盖（行动建议优先）】\n1) 本轮检查范围（列出渠道 + 是否成功）\n2) 新发现（最多 5 条，每条必须带 URL/路径 + 1 句结论）\n3) 行动建议（最多 3 条，可落地改动；每条包含：改动内容/影响面/风险/回滚方式/预计收益）\n4) 待验证（最多 3 条：需要进一步确认的点 + 你建议如何验证）\n如果本轮没有新发现：第3部分仍输出‘保持不变’的建议（如：继续 symlink 约束 + 加扫雷脚本），并说明原因。\n"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "main",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1773306900000
+      }
+    }
+  ]
+}
