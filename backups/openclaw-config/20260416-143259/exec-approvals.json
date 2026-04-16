@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/Users/chongya/.openclaw/exec-approvals.sock",
+    "token": "qFK***REDACTED***ImN"
+  },
+  "defaults": {
+    "security": "full",
+    "ask": "off",
+    "askFallback": "full",
+    "autoAllowSkills": false
+  },
+  "agents": {
+    "after-sales": {
+      "allowlist": [
+        {
+          "id": "as-python3",
+          "pattern": "/opt/homebrew/bin/python3",
+          "lastUsedAt": 1775900829655,
+          "lastUsedCommand": "python3 -m pip install --user uiautomator2",
+          "lastResolvedPath": "/opt/homebrew/bin/python3"
+        },
+        {
+          "id": "as-bash",
+          "pattern": "/bin/bash",
+          "lastUsedAt": 1775372818808,
+          "lastUsedCommand": "bas***REDACTED***Iv\"",
+          "lastResolvedPath": "/bin/bash"
+        },
+        {
+          "id": "as-claude",
+          "pattern": "/Users/chongya/.local/share/fnm/aliases/default/bin/claude",
+          "lastUsedAt": 0,
+          "lastUsedCommand": "claude --print"
+        },
+        {
+          "id": "as-grep",
+          "pattern": "/usr/bin/grep",
+          "lastUsedAt": 1775373536791,
+          "lastUsedCommand": "grep -RIn \"MX73226800\\|loginPwd\\|fuiou\\|富友\" . | head -n 60",
+          "lastResolvedPath": "/usr/bin/grep"
+        },
+        {
+          "id": "as-ls",
+          "pattern": "/bin/ls",
+          "lastUsedAt": 1775900737374,
+          "lastUsedCommand": "ls ***REDACTED***ces",
+          "lastResolvedPath": "/bin/ls"
+        },
+        {
+          "id": "as-cat",
+          "pattern": "/bin/cat",
+          "lastUsedAt": 1775900750114,
+          "lastUsedCommand": "cat***REDACTED***.md",
+          "lastResolvedPath": "/bin/cat"
+        },
+        {
+          "id": "as-adb",
+          "pattern": "/opt/homebrew/bin/adb",
+          "lastUsedAt": 1775373101806,
+          "lastUsedCommand": "adb -s GAUOMVKR79ZPYPVK shell input swipe 168 1650 168 1717 220; sleep 0.6; adb -s GAUOMVKR79ZPYPVK shell input swipe 522 1850 522 1247 320; sleep 0.8; adb -s GAUOMVKR79ZPYPVK shell input swipe 894 1850 894 1515 280; sleep 0.8; adb -s GAUOMVKR79ZPYPVK shell input tap 999 1323; sleep 1; adb -s GAUOMVKR79ZPYPVK shell screencap /sdcard/after_region.png; adb -s GAUOMVKR79ZPYPVK pull /sdcard/after_region.png ./screenshots/after_region.png >/dev/null; tesseract ./screenshots/after_region.png stdout -l chi_sim --psm 6 | grep -E '四川|乐山|井研|请选择地区|商户所在地区|商户类别|执照信息' | head -n 20",
+          "lastResolvedPath": "/opt/homebrew/bin/adb"
+        }
+      ]
+    },
+    "article-structure": {
+      "allowlist": [
+        {
+          "id": "0dcb4749-7411-4513-a26b-7d6790664054",
+          "pattern": "/opt/homebrew/bin/python3",
+          "lastUsedAt": 1772302231994,
+          "lastUsedCommand": "pyt***REDACTED***.py",
+          "lastResolvedPath": "/opt/homebrew/bin/python3"
+        },
+        {
+          "id": "32bfd02f-d0e2-4507-afb8-68ef1e8ba964",
+          "pattern": "/Users/chongya/.openclaw/workspace/agents/article-structure/venv/bin/python",
+          "lastUsedAt": 1772270135907
+        },
+        {
+          "id": "bbe58987-fcbd-443d-90f0-89446f15a111",
+          "pattern": "/bin/ls",
+          "lastUsedAt": 1772301405012,
+          "lastUsedCommand": "ls ***REDACTED***es/",
+          "lastResolvedPath": "/bin/ls"
+        },
+        {
+          "id": "3b82e108-9978-4047-a6fb-ddceed3b9f0a",
+          "pattern": "/usr/bin/ls",
+          "lastUsedAt": 1772270135907
+        },
+        {
+          "id": "e66e3b71-07c6-4df1-bd6f-2d8c2e8e2f54",
+          "pattern": "/usr/bin/python3",
+          "lastUsedAt": 1772270964279,
+          "lastUsedCommand": "/usr/bin/python3 -c \"print('exec_ok_py')\"",
+          "lastResolvedPath": "/usr/bin/python3"
+        },
+        {
+          "id": "7024e29f-8822-4cec-9369-d407238fb169",
+          "pattern": "/bin/bash",
+          "lastUsedAt": 1772271043352,
+          "lastUsedCommand": "bas***REDACTED***.sh",
+          "lastResolvedPath": "/bin/bash"
+        },
+        {
+          "id": "65bbbedd-7b14-455b-a7bc-60af55f4f3de",
+          "pattern": "/Us***REDACTED***.sh",
+          "lastUsedAt": 1772271029790
+        }
+      ]
+    },
+    "hot-topics": {
+      "allowlist": [
+        {
+          "id": "33792d6e-3382-4548-a187-dbe17837950d",
+          "pattern": "/bin/mkdir",
+          "lastUsedAt": 1774593185160
+        }
+      ]
+    }
+  }
+}

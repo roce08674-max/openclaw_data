@@ -1,0 +1,31 @@
+{
+  "agent:code_agent:main": {
+    "sessionId": "1f2***REDACTED***57c",
+    "updatedAt": 1774150971824,
+    "systemSent": true,
+    "skillsSnapshot": {
+      "prompt": "",
+      "skills": [],
+      "skillFilter": [
+        "code-runner"
+      ],
+      "resolvedSkills": [],
+      "version": 0
+    },
+    "deliveryContext": {
+      "channel": "webchat"
+    },
+    "lastChannel": "webchat",
+    "sessionFile": "/Us***REDACTED***onl",
+    "contextTokens": "***REDACTED***",
+    "modelProvider": "xiguacity",
+    "model": "gpt-5.3-codex",
+    "abortedLastRun": false,
+    "inputTokens": "***REDACTED***",
+    "outputTokens": "***REDACTED***",
+    "totalTokens": "***REDACTED***",
+    "totalTokensFresh": "***REDACTED***",
+    "cacheRead": 18944,
+    "cacheWrite": 0
+  }
+}

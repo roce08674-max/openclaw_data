@@ -1,0 +1,465 @@
+{
+  "providers": {
+    "nvidia-minimax": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "minimaxai/minimax-m2.5",
+          "name": "MiniMax M2.5 (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 100000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-meta": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "meta/llama-3.3-70b-instruct",
+          "name": "Llama 3.3 70B Instruct (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-deepseek": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "deepseek-ai/deepseek-v3.1",
+          "name": "DeepSeek V3.1 (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-qwen": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "qwen/qwen3-235b-a22b",
+          "name": "Qwen3 235B A22B (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-nemotron": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "nvidia/nemotron-4-340b-instruct",
+          "name": "Nemotron 4 340B Instruct (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-mistral": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "mistralai/mistral-large-2-instruct",
+          "name": "Mistral Large 2 Instruct (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-moonshot": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "moonshotai/kimi-k2.5",
+          "name": "Kimi K2.5 (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 256000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "nvidia-code": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "apiKey": "nva***REDACTED***pDv",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "qwen/qwen3-coder-480b-a35b-instruct",
+          "name": "Qwen3 Coder 480B (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        },
+        {
+          "id": "mistralai/codestral-22b-instruct-v0.1",
+          "name": "Codestral 22B (NVIDIA)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "openai-codex": {
+      "baseUrl": "https://api.openai.com/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gpt-5.2",
+          "name": "GPT-5.2",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        },
+        {
+          "id": "gpt-5.3-codex",
+          "name": "GPT-5.3 Codex",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        },
+        {
+          "id": "gpt-5.3-codex-spark",
+          "name": "GPT-5.3 Codex Spark",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "v36-free": {
+      "baseUrl": "https://free.v36.cm/v1",
+      "apiKey": "sk-***REDACTED***112",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gpt-4o-mini",
+          "name": "gpt-4o-mini (free.v36.cm)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        },
+        {
+          "id": "gpt-3.5-turbo",
+          "name": "gpt-3.5-turbo (free.v36.cm)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 16385,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "ollama": {
+      "baseUrl": "http://localhost:11434/v1",
+      "apiKey": "***REDACTED***",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gpt-oss:20b",
+          "name": "GPT-OSS 20B (Local)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "kimi": {
+      "baseUrl": "https://api.moonshot.cn/v1",
+      "apiKey": "sk-***REDACTED***bON",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "kimi-k2.5",
+          "name": "Kimi K2.5",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "xiguacity": {
+      "baseUrl": "https://aiproxy.xiguacity.cn/api/llm/azure-sc/v1",
+      "apiKey": "331***REDACTED***8e1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gpt-5.2",
+          "name": "GPT-5.2 (Xiguacity)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        },
+        {
+          "id": "gpt-5.3-codex",
+          "name": "GPT-5.3 Codex (Xiguacity)",
+          "api": "openai-responses",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***"
+        },
+        {
+          "id": "gpt-5.4",
+          "name": "GPT-5.4 (Xiguacity)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "google-gemini": {
+      "baseUrl": "https://aiproxy.xiguacity.cn/api/llm/google/v1",
+      "apiKey": "331***REDACTED***8e1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gemini-3-flash-preview",
+          "name": "Gemini 3 Flash Preview",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions",
+          "compat": {
+            "supportsStore": false
+          }
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "name": "Gemini 3.1 Pro Preview",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": "***REDACTED***",
+          "api": "openai-completions",
+          "compat": {
+            "supportsStore": false
+          }
+        }
+      ]
+    }
+  }
+}

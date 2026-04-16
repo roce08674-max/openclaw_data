@@ -1,0 +1,1113 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.25",
+    "lastTouchedAt": "2026-04-05T07:36:55.730Z"
+  },
+  "env": {
+    "vars": {
+      "HTTP_PROXY": "http://127.0.0.1:7890",
+      "HTTPS_PROXY": "http://127.0.0.1:7890",
+      "NO_PROXY": "127.0.0.1,localhost,aiproxy.xiguacity.cn",
+      "NODE_USE_ENV_PROXY": "1",
+      "NODE_EXTRA_CA_CERTS": "/Us***REDACTED***pem"
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-26T08:39:28.195Z",
+    "lastRunVersion": "2026.2.24",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "cdpUrl": "http://127.0.0.1:9333",
+    "attachOnly": true,
+    "defaultProfile": "user",
+    "profiles": {
+      "user": {
+        "cdpUrl": "http://127.0.0.1:9333",
+        "driver": "existing-session",
+        "color": "#00AA00"
+      },
+      "chrome": {
+        "cdpUrl": "http://127.0.0.1:9333",
+        "driver": "existing-session",
+        "color": "#00AA00"
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "openai-codex:default": {
+        "provider": "openai-codex",
+        "mode": "oauth"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "nvidia-minimax": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "minimaxai/minimax-m2.5",
+            "name": "MiniMax M2.5 (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 100000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-meta": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "meta/llama-3.3-70b-instruct",
+            "name": "Llama 3.3 70B Instruct (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-deepseek": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-ai/deepseek-v3.1",
+            "name": "DeepSeek V3.1 (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-qwen": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen/qwen3-235b-a22b",
+            "name": "Qwen3 235B A22B (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-nemotron": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "nvidia/nemotron-4-340b-instruct",
+            "name": "Nemotron 4 340B Instruct (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-mistral": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "mistralai/mistral-large-2-instruct",
+            "name": "Mistral Large 2 Instruct (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-moonshot": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "moonshotai/kimi-k2.5",
+            "name": "Kimi K2.5 (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "nvidia-code": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "nva***REDACTED***pDv",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen/qwen3-coder-480b-a35b-instruct",
+            "name": "Qwen3 Coder 480B (NVIDIA)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          },
+          {
+            "id": "mistralai/codestral-22b-instruct-v0.1",
+            "name": "Codestral 22B (NVIDIA)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "openai-codex": {
+        "baseUrl": "https://api.openai.com/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-5.2",
+            "name": "GPT-5.2",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***"
+          },
+          {
+            "id": "gpt-5.3-codex",
+            "name": "GPT-5.3 Codex",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***"
+          },
+          {
+            "id": "gpt-5.3-codex-spark",
+            "name": "GPT-5.3 Codex Spark",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "v36-free": {
+        "baseUrl": "https://free.v36.cm/v1",
+        "apiKey": "sk-***REDACTED***112",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-4o-mini",
+            "name": "gpt-4o-mini (free.v36.cm)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          },
+          {
+            "id": "gpt-3.5-turbo",
+            "name": "gpt-3.5-turbo (free.v36.cm)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 16385,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "ollama": {
+        "baseUrl": "http://localhost:11434/v1",
+        "apiKey": "***REDACTED***",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-oss:20b",
+            "name": "GPT-OSS 20B (Local)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "mlx-local": {
+        "baseUrl": "http://127.0.0.1:8800/v1",
+        "apiKey": "***REDACTED***",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "mlx-community/Qwen3-32B-4bit",
+            "name": "Qwen3-32B (Local MLX)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 32000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "kimi": {
+        "baseUrl": "https://api.moonshot.cn/v1",
+        "apiKey": "sk-***REDACTED***bON",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "kimi-k2.5",
+            "name": "Kimi K2.5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "_disabled_xiguacity": {
+        "baseUrl": "https://aiproxy.xiguacity.cn/api/llm/azure-sc/v1",
+        "apiKey": "331***REDACTED***8e1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-5.2",
+            "name": "GPT-5.2 (Xiguacity)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***"
+          },
+          {
+            "id": "gpt-5.3-codex",
+            "name": "GPT-5.3 Codex (Xiguacity)",
+            "api": "openai-responses",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***"
+          },
+          {
+            "id": "gpt-5.4",
+            "name": "GPT-5.4 (Xiguacity)",
+            "api": "openai-responses",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***"
+          }
+        ]
+      },
+      "google-gemini": {
+        "baseUrl": "https://aiproxy.xiguacity.cn/api/llm/google/v1",
+        "apiKey": "331***REDACTED***8e1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gemini-3-flash-preview",
+            "name": "Gemini 3 Flash Preview",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***",
+            "compat": {
+              "supportsStore": false
+            }
+          },
+          {
+            "id": "gemini-3.1-pro-preview",
+            "name": "Gemini 3.1 Pro Preview",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": "***REDACTED***",
+            "compat": {
+              "supportsStore": false
+            }
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai-codex/gpt-5.3-codex",
+        "fallbacks": [
+          "google-gemini/gemini-3.1-pro-preview",
+          "nvidia-minimax/minimaxai/minimax-m2.5"
+        ]
+      },
+      "models": {
+        "ollama/gpt-oss:20b": {},
+        "openai-codex/gpt-5.2": {},
+        "openai-codex/gpt-5.3-codex": {},
+        "nvidia-minimax/minimaxai/minimax-m2.5": {},
+        "nvidia-meta/meta/llama-3.3-70b-instruct": {},
+        "nvidia-deepseek/deepseek-ai/deepseek-v3.1": {},
+        "nvidia-qwen/qwen/qwen3-235b-a22b": {},
+        "nvidia-moonshot/moonshotai/kimi-k2.5": {},
+        "v36-free/gpt-4o-mini": {},
+        "v36-free/gpt-3.5-turbo": {},
+        "openai-codex/gpt-5.3-codex-spark": {},
+        "openai-codex/gpt-5.4": {},
+        "_disabled_xiguacity/gpt-5.2": {},
+        "_disabled_xiguacity/gpt-5.3-codex": {},
+        "_disabled_xiguacity/gpt-5.4": {},
+        "nvidia-nemotron/nvidia/nemotron-4-340b-instruct": {},
+        "nvidia-mistral/mistralai/mistral-large-2-instruct": {},
+        "nvidia-code/qwen/qwen3-coder-480b-a35b-instruct": {},
+        "nvidia-code/mistralai/codestral-22b-instruct-v0.1": {},
+        "google-gemini/gemini-3-flash-preview": {},
+        "google-gemini/gemini-3.1-pro-preview": {},
+        "mlx-local/mlx-community/Qwen3-32B-4bit": {}
+      },
+      "workspace": "/Users/chongya/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "timeoutSeconds": 900,
+      "heartbeat": {
+        "every": "5m",
+        "activeHours": {
+          "start": "08:00",
+          "end": "23:00",
+          "timezone": "Asia/Shanghai"
+        },
+        "target": "last",
+        "prompt": "系统心跳 - 检查执行状态。若有进行中的入网任务，读取 execution_state.json 并继续执行；若无任务，确认在线即可。"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "sandbox": {
+        "mode": "off"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "name": "main",
+        "model": {
+          "primary": "openai-codex/gpt-5.3-codex",
+          "fallbacks": [
+            "_disabled_xiguacity/gpt-5.4",
+            "nvi***REDACTED***uct",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "identity": {
+          "name": "冲鸭AI大长子",
+          "theme": "ops",
+          "emoji": ""
+        },
+        "subagents": {
+          "allowAgents": [
+            "hot-topics",
+            "viral-titles",
+            "article-structure",
+            "rewrite-article",
+            "image-text",
+            "code_agent",
+            "after-sales",
+            "merchant-onboarding",
+            "openclaw-optimizer"
+          ]
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "hot-topics",
+        "name": "热点信息",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/hot-topics",
+        "model": {
+          "primary": "_disabled_xiguacity/gpt-5.2",
+          "fallbacks": [
+            "nvidia-minimax/minimaxai/minimax-m2.5",
+            "nvidia-deepseek/deepseek-ai/deepseek-v3.1",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "skills": [
+          "news-collector-graph"
+        ],
+        "identity": {
+          "name": "热点信息",
+          "theme": "research",
+          "emoji": "🔥"
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "viral-titles",
+        "name": "爆款标题",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/viral-titles",
+        "model": {
+          "primary": "_disabled_xiguacity/gpt-5.2",
+          "fallbacks": [
+            "nvidia-deepseek/deepseek-ai/deepseek-v3.1",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "skills": [],
+        "identity": {
+          "name": "爆款标题",
+          "theme": "writing",
+          "emoji": "📰"
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "article-structure",
+        "name": "文章结构拆解",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/article-structure",
+        "model": {
+          "primary": "_disabled_xiguacity/gpt-5.4",
+          "fallbacks": [
+            "nvi***REDACTED***uct",
+            "nvidia-minimax/minimaxai/minimax-m2.5",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "skills": [
+          "office-doc-reader"
+        ],
+        "identity": {
+          "name": "文章结构拆解",
+          "theme": "analysis",
+          "emoji": "📊"
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "rewrite-article",
+        "name": "仿写文章",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/rewrite-article",
+        "model": {
+          "primary": "openai-codex/gpt-5.3-codex",
+          "fallbacks": [
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "skills": [],
+        "identity": {
+          "name": "仿写文章",
+          "theme": "writing",
+          "emoji": "✍️"
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ],
+          "exec": {
+            "security": "full",
+            "ask": "off"
+          }
+        }
+      },
+      {
+        "id": "image-text",
+        "name": "图文生成",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/image-text",
+        "model": {
+          "primary": "_disabled_xiguacity/gpt-5.4",
+          "fallbacks": [
+            "nvidia-minimax/minimaxai/minimax-m2.5",
+            "nvidia-deepseek/deepseek-ai/deepseek-v3.1",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "skills": [],
+        "identity": {
+          "name": "图文生成",
+          "theme": "design",
+          "emoji": "🖼️"
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "code_agent",
+        "name": "code_agent",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/code_agent",
+        "model": {
+          "primary": "openai-codex/gpt-5.3-codex",
+          "fallbacks": [
+            "nvi***REDACTED***uct",
+            "_disabled_xiguacity/gpt-5.4",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "skills": [
+          "code-runner"
+        ],
+        "identity": {
+          "name": "code_agent",
+          "theme": "coding",
+          "emoji": "💻"
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "after-sales",
+        "name": "after-sales",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/after-sales",
+        "agentDir": "/Users/chongya/.openclaw/agents/after-sales/agent",
+        "model": {
+          "primary": "openai-codex/gpt-5.3-codex",
+          "fallbacks": [
+            "nvidia-moonshot/moonshotai/kimi-k2.5",
+            "mlx-local/mlx-community/Qwen3-32B-4bit"
+          ]
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "merchant-onboarding",
+        "name": "merchant-onboarding",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/merchant-onboarding",
+        "agentDir": "/Users/chongya/.openclaw/agents/merchant-onboarding/agent",
+        "model": {
+          "primary": "openai-codex/gpt-5.2",
+          "fallbacks": [
+            "nvidia-moonshot/moonshotai/kimi-k2.5",
+            "mlx-local/mlx-community/Qwen3-32B-4bit"
+          ]
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "openclaw-optimizer",
+        "name": "openclaw-optimizer",
+        "workspace": "/Users/chongya/.openclaw/workspace/agents/openclaw-optimizer",
+        "agentDir": "/Users/chongya/.openclaw/agents/openclaw-optimizer/agent",
+        "model": {
+          "primary": "_disabled_xiguacity/gpt-5.4",
+          "fallbacks": [
+            "nvi***REDACTED***uct",
+            "nvidia-minimax/minimaxai/minimax-m2.5",
+            "google-gemini/gemini-3.1-pro-preview"
+          ]
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "write",
+            "edit",
+            "exec",
+            "process",
+            "browser",
+            "web_fetch",
+            "web_search"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "deny": [
+      "group:web"
+    ],
+    "sessions": "{'v***REDACTED***l'}",
+    "elevated": {
+      "enabled": false,
+      "allowFrom": {}
+    },
+    "exec": {
+      "host": "gateway",
+      "security": "full",
+      "ask": "off",
+      "applyPatch": {
+        "workspaceOnly": true
+      }
+    },
+    "fs": {
+      "workspaceOnly": true
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_1748123a570e40a8ed97dd8cfb49e329"
+        }
+      }
+    },
+    {
+      "agentId": "hot-topics",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_f450bcf624db077fb69de1ece8a61db1"
+        }
+      }
+    },
+    {
+      "agentId": "viral-titles",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_3bd2c694dec8dbe31893f964ac4b7d45"
+        }
+      }
+    },
+    {
+      "agentId": "article-structure",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_f0b2d3453d064898628bf1c834119d5c"
+        }
+      }
+    },
+    {
+      "agentId": "rewrite-article",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_afb178c01156b8cff4692ddbef6bbc97"
+        }
+      }
+    },
+    {
+      "agentId": "image-text",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_379d16f313e068867adacd689c56d433"
+        }
+      }
+    },
+    {
+      "agentId": "code_agent",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_3bef5506efb037f25a7b133956d72df4"
+        }
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": "{'i***REDACTED***3}}",
+  "cron": {
+    "enabled": true
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": "{'e***REDACTED***ue}"
+      }
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a8e60f257aab5013",
+      "appSecret": "fks***REDACTED***WYd",
+      "domain": "https://open.feishu.cn",
+      "connectionMode": "websocket",
+      "dmPolicy": "open",
+      "groupPolicy": "open",
+      "requireMention": true,
+      "mediaMaxMb": 30,
+      "renderMode": "auto",
+      "allowFrom": [
+        "*"
+      ],
+      "groupAllowlist": [
+        "oc_1748123a570e40a8ed97dd8cfb49e329",
+        "oc_f450bcf624db077fb69de1ece8a61db1",
+        "oc_3bd2c694dec8dbe31893f964ac4b7d45",
+        "oc_f0b2d3453d064898628bf1c834119d5c",
+        "oc_afb178c01156b8cff4692ddbef6bbc97",
+        "oc_379d16f313e068867adacd689c56d433",
+        "oc_3bef5506efb037f25a7b133956d72df4"
+      ]
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "30c***REDACTED***ef8"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    }
+  },
+  "skills": {
+    "load": {
+      "watch": true,
+      "watchDebounceMs": 5000
+    },
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "feishu": {
+        "enabled": true
+      }
+    }
+  }
+}
