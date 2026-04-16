@@ -1,0 +1,31 @@
+{
+  "agent:article-structure:main": {
+    "sessionId": "9d9***REDACTED***934",
+    "updatedAt": 1774150922960,
+    "systemSent": true,
+    "skillsSnapshot": {
+      "prompt": "",
+      "skills": [],
+      "skillFilter": [
+        "office-doc-reader"
+      ],
+      "resolvedSkills": [],
+      "version": 0
+    },
+    "deliveryContext": {
+      "channel": "webchat"
+    },
+    "lastChannel": "webchat",
+    "sessionFile": "/Us***REDACTED***onl",
+    "contextTokens": "***REDACTED***",
+    "modelProvider": "xiguacity",
+    "model": "gpt-5.3-codex",
+    "abortedLastRun": false,
+    "inputTokens": "***REDACTED***",
+    "outputTokens": "***REDACTED***",
+    "totalTokens": "***REDACTED***",
+    "totalTokensFresh": "***REDACTED***",
+    "cacheRead": 5248,
+    "cacheWrite": 0
+  }
+}

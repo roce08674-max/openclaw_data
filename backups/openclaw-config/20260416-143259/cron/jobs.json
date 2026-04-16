@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "578619e8-ad63-46be-b038-fc8b10cdc217",
+      "agentId": "main",
+      "name": "定时心跳 - 主会话",
+      "enabled": true,
+      "createdAtMs": 1770871773816,
+      "updatedAtMs": 1776304870152,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "***REDACTED***",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "【每日状态摘要】当前时间：{{current_time}}（Asia/Shanghai）。\\n请执行只读检查：\\n1) openclaw status --deep\\n2) openclaw security audit --deep\\n3) openclaw update status\\n然后给出结论：\\n- 若发现 warn/critical、更新可用、Feishu异常、Gateway不可达、cron连续失败等，输出“需要处理”的要点清单（含建议下一步命令）。\\n- 若一切正常，仅输出一行：系统正常，无需处理。",
+        "model": "ollama/gpt-oss:20b",
+        "thinking": "off"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "main",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1776391200000,
+        "lastRunAtMs": 1776304800008,
+        "lastStatus": "ok",
+        "lastDurationMs": 70144,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "unknown"
+      }
+    },
+    {
+      "id": "e8cb043b-3b0e-4316-bfae-60c4a85156c5",
+      "agentId": "after-sales",
+      "name": "微信通知监听-自动处理",
+      "enabled": false,
+      "createdAtMs": 1774952603198,
+      "updatedAtMs": 1775121300248,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 120000,
+        "anchorMs": 1774952603198
+      },
+      "sessionTarget": "***REDACTED***",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "【定时***REDACTED***何文件"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "main",
+        "bestEffort": true
+      },
+      "state": {
+        "lastRunAtMs": 1775121203389,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 39647,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}

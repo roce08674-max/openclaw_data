@@ -1,0 +1,24 @@
+{
+  "agent:viral-titles:main": {
+    "sessionId": "e07***REDACTED***821",
+    "updatedAt": 1774150917769,
+    "skillsSnapshot": {
+      "prompt": "",
+      "skills": [],
+      "skillFilter": [],
+      "resolvedSkills": [],
+      "version": 0
+    },
+    "sessionFile": "/Us***REDACTED***onl",
+    "contextTokens": "***REDACTED***",
+    "modelProvider": "xiguacity",
+    "model": "gpt-5.4",
+    "abortedLastRun": false,
+    "inputTokens": "***REDACTED***",
+    "outputTokens": "***REDACTED***",
+    "totalTokens": "***REDACTED***",
+    "totalTokensFresh": "***REDACTED***",
+    "cacheRead": 0,
+    "cacheWrite": 0
+  }
+}
